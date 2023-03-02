@@ -53,7 +53,7 @@ struct ContentView: View {
 
 extension ContentView {
     private func buildPokemonImage(from imageUrl: String) -> some View {
-        KFImage(URL(string: imageUrl)!)
+        KFImage(URL(string: imageUrl)!) // Displays an image from a url
             .resizable()
             .scaledToFit()
             .frame(width: 350, height: 200)
